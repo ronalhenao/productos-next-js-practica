@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from "components/layout";
+import ListadoProductos from 'components/listadoProductos';
 
 const Tienda = () => {
   return (
@@ -7,7 +8,13 @@ const Tienda = () => {
       title={'Tienda virtual'}
       description={'Tienda, productos, tienda de productos'}
     >
-      <h1>Nosotros</h1>
+      <main className='contenedor'>
+        <h1 className='heading'>Nuestra colección</h1>
+
+        <ListadoProductos 
+        
+        />
+      </main>
     </Layout>
   )
 }
